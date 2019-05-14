@@ -99,7 +99,7 @@ while a != c:
 #------------Separador_______________
     print(wordlistGen+wordlistGen2+wordlistGen3+wordlistGen4+wordlistGen5+wordlistGen6)
     f = open( 'gen.txt', 'a' )
-    f.write(repr(wordlistGen+wordlistGen2+wordlistGen3+wordlistGen4+wordlistGen5+wordlistGen6+wordlistGen2) + '\n' )
+    f.write(repr(wordlistGen+wordlistGen2+wordlistGen3+wordlistGen4+wordlistGen5+wordlistGen6) + '\n' )
     a = a + 1
     f.close()
 os.system('python replace.py')
